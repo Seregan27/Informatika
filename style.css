@@ -1,6 +1,5 @@
 body{
-    background: linear-gradient(149deg, red 0%,rgba(115,53,134,1) 42%, rgb(29, 41, 156) 72%,  rgb(6, 6, 179)  100%);
-    animation: gradient 10s infinite linear;
+    background: rgb(48, 126, 228);
     width: 1000px;
     height: 1000px;
 }
@@ -12,3 +11,8 @@ body{
 .Seregan{
     margin:234px;
 }
+@media (max-height: 600px) {
+    body { font-size: 14px; background-color:  rgb(48, 126, 228);width: 700px;height: 600px;}
+    img { width: 100%; }
+    button{width: 60px;height: 60px;}
+  }
